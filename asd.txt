@@ -1,2 +1,2 @@
 salida
-prueba
+prueba2
