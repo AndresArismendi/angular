@@ -1,6 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
+<!-- <div style="text-align:center"> -->
+  <!-- <h1>
     Bienvenido a {{ title }}!
   </h1>
   <h2>{{ subtitulo }}</h2>
@@ -20,7 +20,15 @@
   </li>
 </ul>
 
-<hr>
-<fruta></fruta>
-<hr>
-<empleados></empleados>
+<hr> -->
+<!-- <fruta></fruta>
+<hr> -->
+<!-- <empleados></empleados> -->
+<nav>
+  <a [routerLink]="['/pagina-principal']">Home</a>- 
+  <a [routerLink]="['/fruta']">Fruta</a>-
+  <a [routerLink]="['/empleado']">Empleado</a>-
+  <a [routerLink]="['/contacto']">Contacto</a>
+</nav>
+
+<router-outlet></router-outlet>
